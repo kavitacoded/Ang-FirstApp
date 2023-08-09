@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'FirstApp';
   Name="Mersadiz Benz";
   public isSelected:boolean=false;
+  Cartype="hifi";
 }
