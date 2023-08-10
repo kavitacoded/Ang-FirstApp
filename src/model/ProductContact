@@ -1,0 +1,6 @@
+public interface ProductContact{
+    Name:string,
+    Price:900000,
+    Stock:boolean,
+    City:string
+}

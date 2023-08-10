@@ -9,9 +9,17 @@
   
     </div>
     <div class="card-footer">
-        <input type="checkbox" checked="isSelected" name="" id="">Stock 
+        <input type="checkbox" [checked]="isSelected" name="" id="">Stock 
         <Button class="btn btn-info px-2">View Details>></Button>
     </div>
    </div>
   
 </div>
+<input type="text" [(ngModel)]="username" class="form-control">
+{{username}}
+
+<div class="py-5">
+    <input type="checkbox" [(ngModel)]="isSelected">
+    {{isSelected}}
+</div>
+<p class="text-danger">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, minus.</p>
